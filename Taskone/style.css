@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Poppins";
+}
+
+
+
+
+.main{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: saddlebrown;
+}
+.box{
+    height: 340px;
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.one{
+height: 300px;
+width: 100%;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.two{
+   
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -56%;
+    left: 0;
+    transition: 1s all ease-in;
+}
+.box:hover .two{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+}
+.rate{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0 20px;
+}
+.size{
+    display: flex;
+    padding: 0 0 0 15px;
+}
+.size h2{
+    margin: 0 5px;
+}
+.ss{
+    padding: 10px 0 0 20px;
+    font-size: 20px;
+}
+.colors{
+    padding: 10px 0 0 20px;
+    font-size: 20px;
+}
+.bcolors{
+width: 20px;
+height: 20px;
+background-color: red;
+}
+.bcolors2{
+width: 20px;
+height: 20px;
+background-color: black;
+}
+.bcolors3{
+width: 20px;
+height: 20px;
+background-color: purple;
+}
+.bcolors4{
+width: 20px;
+height: 20px;
+background-color: orangered;
+}
+.bcolors5{
+width: 20px;
+height: 20px;
+background-color: blue;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 10px 0 0 10px;
+}
+.two button{
+    padding: 8px 30px;
+    width: 90%;
+    background-color: rgb(56, 54, 54);
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 10px 0 0 14px;
+    color: #fff;
+    border: 1px solid rgb(56, 54, 54);
+}
